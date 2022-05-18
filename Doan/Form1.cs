@@ -283,9 +283,9 @@ namespace Doan
             }
             else
             {
-                richTextBox1.Text += "\nDuong di ngan nhat tuDuong di ngan nhat tu " + s.ToString() + " den " + v.ToString() + ": \n\n";
-                //MessageBox.Show("Duong di ngan nhat tuDuong di ngan nhat tu {0} den {1} la" +  s + v);
-                //Console.WriteLine("Duong di ngan nhat tuDuong di ngan nhat tu {0} den {1} la", s, v);
+                richTextBox1.Text += "\nDuong di ngan nhat tu " + s.ToString() + " den " + v.ToString() + ": \n\n";
+                //MessageBox.Show("Duong di ngan nhat tu {0} den {1} la" +  s + v);
+                //Console.WriteLine("Duong di ngan nhat tu {0} den {1} la", s, v);
                 //cout << "Duong di ngan nhat tu " << s << " den " << v << " la:\n";
                 int[] duong = new int[50];
                 int k = v;
